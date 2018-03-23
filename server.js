@@ -11,7 +11,8 @@ const sass = require('node-sass-middleware') // If using SASS
 const app = express()
 const path = require('path')
 
-// For DB, make sure to npm install --save knex
+// For DB, make sure to install the db on your system
+// Install knex npm install --save knex
 // Setup knexfile.js and .env
 
 // const knexConfig = require('./knexfile')
